@@ -1,0 +1,39 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+venv/
+.venv/
+env/
+
+# ===== Environment Variables (QUAN TRỌNG: KHÔNG commit API keys!) =====
+.env
+
+# ===== Database & Data =====
+*.db
+*.sqlite3
+chroma_data/
+
+# ===== IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== OS =====
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ===== Logs =====
+*.log
+logs/
+
+# ===== Test =====
+.pytest_cache/
+htmlcov/
+.coverage

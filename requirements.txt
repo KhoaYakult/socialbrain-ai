@@ -1,0 +1,10 @@
+# === Web Framework ===
+fastapi==0.115.12           # Framework web API hiệu năng cao
+uvicorn[standard]==0.34.3   # ASGI server để chạy FastAPI
+
+# === Configuration ===
+pydantic-settings==2.9.1    # Đọc biến môi trường (.env) vào Pydantic model
+python-dotenv==1.1.1        # Load file .env vào environment variables
+
+# === Logging ===
+rich==14.0.0                # Terminal output đẹp, có màu sắc
