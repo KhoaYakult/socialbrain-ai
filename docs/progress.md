@@ -1,6 +1,6 @@
 # 📊 SocialBrain AI — Quản lý tiến độ dự án
 
-> Cập nhật lần cuối: 2026-07-03
+> Cập nhật lần cuối: 2026-07-04
 
 ---
 
@@ -8,7 +8,7 @@
 
 | Phase | Tên | Trạng thái | Ngày bắt đầu | Ngày hoàn thành |
 |-------|-----|------------|---------------|-----------------|
-| 0 | Cài đặt môi trường & Git | 🔄 Đang làm | 2026-06-22 | — |
+| 0 | Cài đặt môi trường & Git | ✅ Hoàn thành | 2026-06-22 | 2026-07-04 |
 | 1 | LLM Gateway | ⬜ Chưa bắt đầu | — | — |
 | 2 | Content Generator | ⬜ Chưa bắt đầu | — | — |
 | 3 | Brand Knowledge Base (RAG) | ⬜ Chưa bắt đầu | — | — |
@@ -30,8 +30,8 @@
 - [x] SSH Key — mã hóa bất đối xứng (public/private key)
 - [x] Separation of Concerns — kiến trúc phân lớp (Router → Service → Model → Utils)
 - [x] Python Module vs Package, vai trò của `__init__.py`
-- [ ] `.gitignore` và bảo mật API keys
-- [ ] Virtual environment (venv) là gì
+- [x] `.gitignore` và bảo mật API keys — pattern matching, bảo mật nhiều lớp
+- [x] Virtual environment (venv) — dependency isolation, activate/deactivate
 
 ### Thực hành đã làm
 - [x] Bước 0.1: Lý thuyết Git
@@ -40,10 +40,10 @@
 - [x] Bước 0.4: `git init` + `git remote add origin`
 - [x] Bước 0.5: Lý thuyết cấu trúc dự án Python
 - [x] Bước 0.6: Tạo file khung (README, config, main, logger...)
-- [ ] Bước 0.7: Lý thuyết `.gitignore` & bảo mật
-- [ ] Bước 0.8: First commit + push lên GitHub
-- [ ] Bước 0.9: Lý thuyết Virtual Environment
-- [ ] Bước 0.10: Tạo venv + cài FastAPI + chạy server
+- [x] Bước 0.7: Lý thuyết `.gitignore` & bảo mật
+- [x] Bước 0.8: First commit + push lên GitHub
+- [x] Bước 0.9: Lý thuyết Virtual Environment
+- [x] Bước 0.10: Tạo venv + cài FastAPI + chạy server ✅ + chạy server
 
 ### Kiến thức Git đã dùng
 | Lệnh | Ý nghĩa | Bước |
